@@ -14,9 +14,11 @@ const userInput = [1, 2, 3, 4]
 function beepBoop()
 Expected Output: [0, "Beep!", 2, 3, 4]
 
-Test 2:
+Test 3: "Check if userInput has a 1"
 Code:
-Expected Output
+const userInput = [1, 2, 3, 4, 11]
+function beepBoop()
+Expected Output: true
 
 Test 2:
 Code:
