@@ -39,9 +39,27 @@ function beepBoop(userInput) {
 const userInput = 5;
 const startNum = [0];
 let numArr = [];
+
+function beepBoop(userInput) {          
+  for( let i = 0; i <= userInput; i++) {
+    numArr.push(i);
+  }
+  numArr.forEach(function(i) {
+    if ( i === 1 ) {
+      return numArr[i] = "Beep!";
+    };
+  });
+    return numArr;
+}
+
+
+//Test5
+const userInput = 5;
+const startNum = [0];
+let numArr = [];
 //numRule = 1
 
-function beepBoop(userInput) {          //find index in array contain a 1
+function beepBoop(userInput) {          
   for( let i = 0; i <= userInput; i++) {
     numArr.push(i);
   }
@@ -53,8 +71,6 @@ function beepBoop(userInput) {          //find index in array contain a 1
   });
     return numArr;
 }
-
-
 
 
 
