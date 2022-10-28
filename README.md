@@ -1,9 +1,12 @@
 
 Describe : beepboop()
 
-Test 1: 
+Test 1: "Add 0 to UserInput
 Code:
-Expected Output:
+const userInput = [4];
+const startNum = [0];
+function beepBoop() 
+Expected Output: [0,4]
 
 Test 2:
 Code:

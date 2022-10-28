@@ -1,10 +1,16 @@
-const userInput = (4);
-const result = [];
-const startNum = (0);
+const userInput = [4];
+//let result = [];
+const startNum = [0];
+
+function beepBoop() {
+  newUserInput = startNum.concat(userInput);
+  return newUserInput;
+}
+
 
 function userInputToString (startNum, userInput) {
   for (let i = startNum; i <= userInput; i+=1 )
-  return result.push(i);
+  return result = result.push(i);
 }
 
 
