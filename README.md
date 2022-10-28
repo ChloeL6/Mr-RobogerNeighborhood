@@ -8,9 +8,11 @@ function beepBoop()
 Expected Output: [0, 1, 2, 3, 4]
 
 
-Test 2:
+Test 2: "Replace 1 with "Beep!"
 Code:
-Expected Output 
+const userInput = [1, 2, 3, 4]
+function beepBoop()
+Expected Output: [0, "Beep!", 2, 3, 4]
 
 Test 2:
 Code:
