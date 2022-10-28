@@ -21,6 +21,14 @@ return numArr;
 }
 
 //Test 3
+
+
+
+
+
+
+
+//Test 3
 const userInput = 5;
 const startNum = [0];
 let numArr = [];
@@ -35,11 +43,6 @@ function beepBoop(userInput) {
   return numArr;
 }
 
-
-
-
-
-
 //Test 4
 const userInput = 5;
 const startNum = [0];
@@ -50,8 +53,4 @@ function beepBoop() {
   for( let i = 0; i <= userInput; i++) {
     numArr.push(i);
   }
-  if ( numArr[1] === 1 ) {
-  numArr[1] = "Beep!";
-   };
-  return numArr;
-  }
+  

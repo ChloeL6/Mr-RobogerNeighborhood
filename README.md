@@ -22,7 +22,7 @@ const startNum = [0];
 function beepBoop()
 Expected Output: [0,"Beep!",2,3,4,5]
 
-Test 4: "Replace number contains 1 to "Beep!"
+Test 4: "Replace any number contains 1 with "Beep!"
 Code:
 const userInput = 10;
 const startNum = [0];
