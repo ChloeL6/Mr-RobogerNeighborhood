@@ -1,3 +1,4 @@
+//Tes1
 const userInput = 5;
 const startNum = [0];
 
@@ -9,12 +10,12 @@ function beepBoop() {
 
 //Test 2
 
-let userInput = 5;
-
+const userInput = 5;
+const startNum = [0];
 let numArr = [];
 
-function beepBoop() {
-for( let i = 0; i <= 5; i++) {
+function beepBoop(userInput) {
+for( let i = 0; i <= userInput; i++) {
   numArr.push(i);
 }
 return numArr;
