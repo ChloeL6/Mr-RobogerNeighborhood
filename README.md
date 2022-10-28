@@ -15,16 +15,19 @@ const startNum = [0];
 function beepBoop()
 Expected Output: [0,1,2,3,4,5]
 
-Test 2: "Replace a 1 to "Beep!"
+Test 3: "Replace a 1 to "Beep!"
 Code:
 const userInput = 5;
 const startNum = [0];
 function beepBoop()
 Expected Output: [0,"Beep!",2,3,4,5]
 
-Test 2:
+Test 4: "Replace number contains 1 to "Beep!"
 Code:
-Expected Output
+const userInput = 10;
+const startNum = [0];
+function beepBoop()
+Expected Output: 
 
 Test 2:
 Code:
