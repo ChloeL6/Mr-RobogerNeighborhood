@@ -29,13 +29,19 @@ const startNum = [0];
 function beepBoop()
 Expected Output: [0,"Beep!",2,3,4,5,6,7,8,9,10,11]
 
-Test 5:
+Test 5: "Replace any number an a 1 with "Beep!""
 Code:
-Expected Output
+const userInput = 11;
+const startNum = [0];
+function beepBoop()
+Expected Output: [0,"Beep!",2,3,4,5,6,7,8,9,"Beep!","Beep!"]
 
-Test 2:
+Test 6: "Replace any number an a 1 with "Beep!" and 2 "Beep!""
 Code:
-Expected Output
+const userInput = 12;
+const startNum = [0];
+function beepBoop()
+Expected Output: [0, 'Beep!', 'Boop!', 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!']
 
 Test 2:
 Code:
