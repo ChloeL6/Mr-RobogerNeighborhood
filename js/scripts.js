@@ -85,6 +85,25 @@ function beepBoop(userInput) {
   return numArr;
 }
 
+//Test7 
+
+function beepBoop(userInput) { 
+  let numArr = [];         
+  for( let i = 0; i <= userInput; i++) {
+    numArr.push(i);
+  }
+  numArr.forEach(function(num, index) {
+    if (num.toString().includes("3")) {
+      numArr[index] = "Won't you be my neighbor?";
+    } else if (num.toString().includes("2")) {
+      numArr[index] = "Boop!";
+    } else if (num.toString().includes("1")) {
+      numArr[index] = "Beep!";
+    }
+  });
+  return numArr;
+}
+
 
 
 
