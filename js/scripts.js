@@ -54,24 +54,33 @@ function beepBoop(userInput) {
 
 
 //Test5
-const userInput = 5;
-const startNum = [0];
-let numArr = [];
-//numRule = 1
 
-function beepBoop(userInput) {          
+function beepBoop(userInput) { 
+  let numArr = [];         
   for( let i = 0; i <= userInput; i++) {
     numArr.push(i);
   }
-  //let newNumArr = []; 
-  numArr.forEach(function(i) {
-    if ( i === 1 ) {
-      return numArr[i] = "Beep!";
-    };
+  numArr.forEach(function(num, index) {
+    if (num.toString().includes("1")) {
+      numArr[index] = "Beep!";
+    }
   });
-    return numArr;
+  return numArr;
 }
 
+// if (i > 9 ) {
+    //   newNumStr = numArr[i].toString();
+    //   console.log(newNumStr);
+    //   newNumStrIndex = newNumStr.split('');         //string of number to split
+    //   console.log(newNumStrIndex);
+    //   newNumStrIndex.forEach(function(index) {
+    //     if ( index === 1) {
+    //       //return newNumStrIndex[index] = "Beep";
+    //     };
+    //     //console.log(newNumStrIndex);
+    //   })
+    //   return newArr[i] = "Beep!"
+    // };
 
 
 
