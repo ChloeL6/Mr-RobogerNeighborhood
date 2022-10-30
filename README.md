@@ -1,6 +1,6 @@
 # Mr Roboger's Neighborhood
 
-#### By Chloe Loe
+#### By Chloe Le
 
 #### Return a string of number from user input and replace some numbers with "Beep!", "Boop!" and "Won't you be my neighbor?";
 

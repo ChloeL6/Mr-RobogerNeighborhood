@@ -4,24 +4,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="js/scripts.js" ></script>
+  <script src="js/scripts.js"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css" >
   <title>Mr Roboger's Neighborhood</title>
 </head>
 
 <body>
   <div>
-    <form id="form"></form>
+    <form id="form">
       <h1>Mr Roboger's Neighborhood</h1>
       <label for="input"> Enter a number here </label>
       <input id="input" type="number" name="input">
+
+      <button type="submit">Submit</button>
     </form>
-    </div><br>
-
-  <button type="submit">Submit</button>
-
-  <div id="outPut" class="hidden">
-    <p id="mainOutput"> Results </p>
   </div>
+
+  <div id="output" class="hidden">
+    Result: <p id="mainOutput"> </p>
+  </div>
+  
 </body>
 </html>

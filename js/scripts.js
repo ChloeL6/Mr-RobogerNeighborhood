@@ -1,19 +1,3 @@
-//UI logic
-
-function getData(event) {
-  const userInput = document.getElementById("input").value;
-
-  document.getElementById("output").removeAttribute("class");
-
-  document.getElementById("mainOutput").innerText = userInput;
-
-  event.preventDefault();
-}
-
-window.addEventListener("load", function() {
-  document.getElementById("form").addEventListener("submit", getData);
-});
-
 //BU logic
 
 function beepBoop(userInput) {      
@@ -32,6 +16,24 @@ function beepBoop(userInput) {
   });
   return numArr;
 }
+
+//UI logic
+
+function handleSelect(event) {
+
+  event.preventDefault();
+
+  const userInput = parseInt(document.getElementById("input").value);
+  let result = beepBoop(userInput);
+
+  document.getElementById("output").removeAttribute("class");
+
+  document.getElementById("mainOutput").innerText = result;
+}
+
+window.addEventListener("load", function() {
+  document.getElementById("form").addEventListener("submit", handleSelect);
+});
 
 
 
