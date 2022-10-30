@@ -48,7 +48,7 @@ Code:
 const userInput = 13;
 const startNum = [0];
 function beepBoop()
-Expected Output: [0, 'Beep!', 'Boop!', 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!']
+Expected Output: [0, 'Beep!', 'Boop!', 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!', "Won't you be my neighbor?" ]
 
 
 
