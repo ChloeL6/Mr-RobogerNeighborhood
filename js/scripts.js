@@ -20,7 +20,6 @@ function beepBoop(userInput) {
 //UI logic
 
 function handleSelect(event) {
-
   event.preventDefault();
 
   const userInput = parseInt(document.getElementById("input").value);
