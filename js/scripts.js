@@ -9,8 +9,6 @@ function beepBoop() {
 
 
 //Test 2
-const userInput = 5;
-const startNum = [0];
 let numArr = [];
 
 function beepBoop(userInput) {
@@ -21,8 +19,6 @@ return numArr;
 }
 
 //Test 3
-const userInput = 5;
-const startNum = [0];
 let numArr = [];
 
 function beepBoop(userInput) {
@@ -36,8 +32,6 @@ function beepBoop(userInput) {
 }
 
 //Test4
-const userInput = 5;
-const startNum = [0];
 let numArr = [];
 
 function beepBoop(userInput) {          
@@ -87,6 +81,8 @@ function beepBoop(userInput) {
 
 //Test7 
 
+//BU logic
+
 function beepBoop(userInput) { 
   let numArr = [];         
   for( let i = 0; i <= userInput; i++) {
@@ -103,6 +99,9 @@ function beepBoop(userInput) {
   });
   return numArr;
 }
+
+//UI logic
+
 
 
 
